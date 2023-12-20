@@ -1,0 +1,13 @@
+.Synonyms {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  
+  .Synonyms li {
+    display: inline;
+    padding-right: 15px;
+    padding-left: 0rem;
+    color: rebeccapurple;
+  }
+  

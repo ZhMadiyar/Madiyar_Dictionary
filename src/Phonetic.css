@@ -1,0 +1,72 @@
+.Phonetic {
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .Audio-button {
+    font-size: 22px;
+    color: rebeccapurple;
+    opacity: 0.7;
+  
+    padding: 6px 10px;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+    float: left;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  }
+  
+  .Phonetic a {
+    border: 1px solid #ddd;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: rebeccapurple;
+    transition: all 200ms ease-in-out;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 500;
+  }
+  
+  .Audio-button:hover {
+    background-color: plum;
+    color: white;
+  }
+  
+  .Phonetic .text {
+    opacity: 0.4;
+    font-weight: bold;
+    padding-left: 12px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Phonetic {
+      height: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .Audio-button {
+      font-size: 19px;
+      color: rebeccapurple;
+      opacity: 0.7;
+  
+      padding: 6px 10px;
+      border-radius: 20px;
+      transition: all 200ms ease-in-out;
+      float: left;
+      cursor: pointer;
+      box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    }
+  
+    .Phonetic .text {
+      opacity: 0.4;
+      font-weight: 500;
+      padding-left: 7px;
+      font-size: 17px;
+    }
+  }
+  

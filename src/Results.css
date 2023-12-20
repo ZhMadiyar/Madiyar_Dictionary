@@ -1,0 +1,23 @@
+.Results{
+    margin-top: 15px;
+    color: #575757; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.audiobox{
+    display: block;
+    padding: 14px;
+    width:80%;
+    background: rgba(250, 248, 245, 0.82);
+    padding-bottom: 9px;
+    padding-top: 26px;
+    margin-left: 20px;
+    float: left;
+    line-height: 1,7em;
+}

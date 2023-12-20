@@ -1,0 +1,13 @@
+.Photos img {
+    border-radius: 1px;
+    opacity: 0.8;
+    max-width: 105%;
+    flex-direction: column;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Photos {
+      display: none;
+    }
+  }
+  

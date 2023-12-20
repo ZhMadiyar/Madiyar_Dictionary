@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("http://fonts.cdnfonts.com/css/good-unicorn");
+
+body {
+  background: rgba(250, 248, 245, 0.82);
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  margin-left: 34px;
+  font-size: 120px;
+  text-align: center;
+  padding-top: 17px;
+  color: #575757;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 0;
+}
+
+.mainApp {
+  margin: 0;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+p.simply {
+  margin-left: 20px;
+  text-align: left;
+  padding-top: 13px;
+  color: #575757;
+  opacity: 0.6;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  margin-left: 34px;
+}
+
+.app_footer {
+  text-align: center;
+  margin: 50px;
+}
+
+.logo {
+  width: 188px;
+  float: right !important;
+
+  transform: rotate(-17deg);
+
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 60px;
+  }
+}
